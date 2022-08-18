@@ -86,7 +86,8 @@
 		"CHANGELOG.md",
 		"index.d.ts",
 		"immutable.d.ts",
-		"immutable.js"
+		"immutable.js",
+		"rambda.js"
 	],
 	"repository": {
 		"type": "git",
@@ -102,13 +103,13 @@
 	"types": "./index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/rambda.mjs",
+			"import": "./rambda.js",
 			"require": "./dist/rambda.js",
 			"default": "./dist/rambda.js",
 			"types": "./index.d.ts"
 		},
 		"./immutable": {
-			"import": "./immutable.js",
+			"import": "./rambda.js",
 			"require": "./immutable.js",
 			"default": "./immutable.js",
 			"types": "./immutable.d.ts"
